@@ -362,13 +362,6 @@ h3 {
   animation: fade-up 700ms ease both;
 }
 
-.pricing-layout {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 1rem;
-  align-items: start;
-}
-
 .price-value,
 .package-price {
   margin-top: 1rem;
@@ -383,21 +376,6 @@ h3 {
   border-radius: 24px;
   background: rgba(139, 214, 0, 0.08);
   border: 1px solid rgba(139, 214, 0, 0.16);
-}
-
-.pricing-poster {
-  margin: 0;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 30px;
-  box-shadow: var(--shadow);
-  background: rgba(255, 255, 255, 0.84);
-  animation: fade-up 800ms ease both;
-}
-
-.pricing-poster img {
-  width: 100%;
-  display: block;
 }
 
 .gallery-card {
@@ -579,7 +557,6 @@ h3 {
   .topbar-content,
   .hero-grid,
   .highlight-grid,
-  .pricing-layout,
   .service-grid,
   .pricing-grid,
   .package-grid,
